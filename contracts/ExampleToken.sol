@@ -2,10 +2,10 @@ pragma solidity ^0.4.18;
 import './StandardToken.sol';
 
 contract ExampleToken is StandardToken {
-  string public name = "ExampleToken"; 
-  string public symbol = "EXT";
+  string public name = "FreeTIME"
+  string public symbol = "fTIME";
   uint public decimals = 18;
-  uint public INITIAL_SUPPLY = 10000 * (10 ** decimals);
+  uint public INITIAL_SUPPLY = 1000000000000000 * (15 ** decimals);
   uint256 public totalSupply;
 
   function ExampleToken() public {
